@@ -76,6 +76,9 @@ async function checkPwd(){
         cfpwd.value = '';
         cfpwd.focus();
         disData();
+    } else {
+        console.log("Congratulations you have signed up");
+        console.log(`Username : ${useName}\n Email : ${mail}\n password : ${pwd}`);
     }
 }
 
